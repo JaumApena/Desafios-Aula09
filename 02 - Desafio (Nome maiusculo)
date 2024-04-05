@@ -1,0 +1,18 @@
+package desafiosAula08;
+
+import java.util.Scanner;
+
+public class desafio02{
+      public static void main(String[] args){
+      Scanner scanner = new Scanner(System.in);
+      
+      String meuNome = "João Matheus Santos de Oliveira";
+      
+      String partes = meuNome.split(" ")[0];
+      
+      String emMaiusculas = partes.toUpperCase();
+
+                 System.out.println(emMaiusculas);
+                            scanner.close();
+                }
+}
