@@ -1,0 +1,16 @@
+package desafiosAula08;
+
+import java.util.Scanner;
+
+public class desafio01{
+    public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    String nome = "João Matheus Santos de Oliveira";
+    String parte = nome.split(" ")[0];
+
+         System.out.println(partes);
+
+                      scanner.close();
+                }  
+}
