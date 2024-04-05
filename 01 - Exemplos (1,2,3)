@@ -1,0 +1,97 @@
+package desafiosAula09;
+public class exemplo01{
+public static void main(String [] args){
+
+        String orig = "Olá mundo";
+        
+        String concat = orig + " exem";
+        
+        String maius = orig.toUpperCase();
+        
+        System.out.println("String original: " + orig);
+        System.out.println("String concatenada: " + concat);
+        System.out.println("String maiusculo: " + maius);
+
+System.out.println("String após as alterações: " + original);
+
+          }
+}
+
+____________________________________________________________________
+
+
+package desafiosAula09;
+
+import java.util.Scanner;
+
+public class exemplo01{
+public static void main(String[] args){
+Scanner scanner = new Scanner(System.in);
+
+String linha = "Primeiro metodo dos exemplos";
+int tamanho = linha.length();
+
+System.out.println("A frase possui: " + tamanho + " caracteres");
+
+                   scanner.close();
+          }
+}
+
+____________________________________________________________________
+
+
+package desafiosAula09;
+
+import java.util.Scanner;
+
+public class exemplo02{
+            public static void main(String[] args){
+            Scanner scanner = new Scanner(System.in);
+            
+            String exem = "Exemplo de frase";
+            
+            char caract1 = exemplo.charAt(0);
+            char caract2 = exemplo.charAt(15);
+            
+            System.out.println("O Primeiro caractere da frase é: " + caract1);
+            System.out.println("O Ultimo caractere da frase é: " + caract2);
+
+                         scanner.close();
+
+          }
+}
+
+____________________________________________________________________
+
+
+package desafiosAula09;
+import java.util.Scanner;
+public class exemplo03{
+public static void main(String[] args){
+Scanner scanner = new Scanner(System.in);
+
+String exemplo = "Exemplo de frase";
+int caracteresAnteriores = exemplo.indexOf("frase");
+
+System.out.println("Numero de caracteres anteriores: " + caracteresAnteriores);
+
+                            scanner.close();
+          }
+}
+
+____________________________________________________________________
+
+
+package desafiosAula09;
+import java.util.Scanner;
+public class exemplo03{
+public static void main(String[] args){
+Scanner scanner = new Scanner(System.in);
+
+String exem = "a letra seguir de a virou o: letra A";
+String subs = exemplo.replace('A' , 'O');
+
+System.out.println(subs);
+                            scanner.close();
+          }
+}
