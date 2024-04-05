@@ -1,4 +1,4 @@
-package desafiosAula08;
+package desafiosAula09;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class desafio03{
       public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Digite o nome de Curitiba: ");
+            System.out.println("Digite exatamente Curitiba: ");
             String nome = scanner.nextLine();
 
             if (nome.equals("Curitiba")) {
@@ -14,7 +14,7 @@ public class desafio03{
             }
 
             else {
-                  System.out.println("Incorreto, essa cidade não é Curitiba!");
+                  System.out.println("Incorreto, não está escrito Curitiba corretamente!");
             }
             scanner.close();
       }
