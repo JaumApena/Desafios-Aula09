@@ -1,5 +1,6 @@
-package aula09;
+package desafiosAula09;
 import java.util.Scanner;
+
 public class exemplo04 {
 public static void main(String[] args){
 Scanner scanner = new Scanner(System.in);
@@ -18,17 +19,19 @@ System.out.println("Frase em minusculo: " + emMinusculo);
 
                  scanner.close();
 
-}
+          }
 }
 
----------------------------------------------------------------------------------------------
-package aula09;
+____________________________________________________________________
+
+package desafiosAula09;
 import java.util.Scanner;
+
 public class exemplo05 {
 public static void main(String[] args){
 Scanner scanner = new Scanner(System.in);
 
-String animais = "GATO,CACHORRO,OVELHA,VACA";
+String animais = "BALEIA,TIGRE,GANSO,GLUTÃO";
 
 String[] partes = animais.split(",");
 
@@ -39,12 +42,14 @@ for (String parte : partes ) {
 
           scanner.close();
 
-}
+          }
 }
 
-----------------------------------------------------------------------------------------------
-package aula09;
+____________________________________________________________________
+
+package desafiosAula09;
 import java.util.Scanner;
+
 public class exemplo05 {
 public static void main(String[] args){
 Scanner scanner = new Scanner(System.in);
@@ -64,11 +69,14 @@ System.out.println("O trecho referente ao numero das letras extraido foi:" + sub
 
              scanner.close();
 
-}}
+          }
+}
 
---------------------------------------------------------------------------------------------------
-package aula09;
+____________________________________________________________________
+
+package desafiosAula09;
 import java.util.Scanner;
+
 public class exemplo06{
 public static void main(String[] args){
 Scanner scanner = new Scanner(System.in);
@@ -93,12 +101,14 @@ boolean saoIguais3 = segunda.equals(terceira);
 System.out.println("True palavras iguais, false diferentes: " + saoIguais3);
 
                   scanner.close();
-}
+          }
 }
 
----------------------------------------------------------------------------------------------------
-package aula09;
+____________________________________________________________________
+
+package desafiosAula09;
 import java.util.Scanner;
+
 public class exemplo06{
 public static void main(String[] args){
 Scanner scanner = new Scanner(System.in);
@@ -111,7 +121,5 @@ System.out.println(inicio);
 System.out.println(fim);
 
                     scanner.close();
-
-
-}
+          }
 }
